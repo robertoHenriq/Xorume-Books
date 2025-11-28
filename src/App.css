@@ -4,40 +4,10 @@
     background-color: rgba(0, 0, 255, 0.381);
 }
 
-.App-header{
-    background-color: white;
-}
-
 li{
     list-style: none;
 }
 
-.opcoes{
-    display: flex;
-    justify-content: center;
-}
 
-.opcao{
-    font-size: 15px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    padding: 0 5px;
-    cursor: pointer;
-    min-width: 120px;
-}
 
-.icones{
-    display: flex;
-    align-items: center;
-    padding: 0%;
-
-}
-
-.icone{
-    text-align: center;
-    margin-right: 10px;
-}
 

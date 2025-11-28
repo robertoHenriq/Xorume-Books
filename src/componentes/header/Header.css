@@ -1,0 +1,10 @@
+.App-header{
+    
+    background-color: white;
+    justify-content: center;
+}
+
+.selecionaveis{
+    display: flex;
+    justify-content: center;
+}
