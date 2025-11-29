@@ -1,4 +1,20 @@
-import './Opcoes.css'
+import Styled from 'styled-components'
+
+const OpcoesComponentes = Styled.ul`
+    display: flex;
+    justify-content: center;
+`
+const OpcaoComponente = Styled.li`
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 5px;
+    cursor: pointer;
+    min-width: 120px;
+`
 
 const Opcoes = () =>{
     
@@ -9,13 +25,13 @@ const Opcoes = () =>{
   ]
 
     return (
-        <ul className="opcoes">
+        <OpcoesComponentes>
             {textoOpcao.map(
                 texto =>(
-                    <li className="opcao"><p>{texto}</p></li>
+                    <OpcaoComponente><p>{texto}</p></OpcaoComponente>
                 )
             )}
-        </ul>
+        </OpcoesComponentes>
     );
 }
 

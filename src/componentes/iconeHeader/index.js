@@ -1,6 +1,18 @@
 import Sacola from '../../imagens/sacola.svg'
 import Perfil from '../../imagens/perfil.svg'
-import './Icone.css'
+import Styled from 'styled-components' 
+
+const Icones = Styled.ul`
+    display: flex;
+    align-items: center;
+    padding: 0%;
+`
+
+const IconeComponente = Styled.li`
+    text-align: center;
+    margin-right: 10px;
+    cursor: pointer;
+`
 
 const Icone = () =>{
 
@@ -11,12 +23,12 @@ const Icone = () =>{
 
     return(
 
-        <ul className='icones'>
+        <Icones>
             {icones.map(
-                icone => <li className='icone'><img src={icone}></img></li>
+                icone => <IconeComponente><img src={icone}></img></IconeComponente>
             )}
 
-        </ul>
+        </Icones>
 
     );
 }
