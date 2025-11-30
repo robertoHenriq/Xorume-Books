@@ -1,4 +1,4 @@
-import Busca from './componentes/busca/Index';
+import Input from './componentes/input/Index';
 import Header from './componentes/header';
 import styled from 'styled-components'
 
@@ -14,7 +14,7 @@ function App() {
     return (
     <AppContainer>
       <Header></Header>
-      <Busca />
+      <Input />
     </AppContainer>
   );
 }
